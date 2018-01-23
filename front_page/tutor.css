@@ -1,0 +1,114 @@
+body{ 
+	padding-top: 20px; 
+	font-family: times;
+}
+
+.navbar{
+	height: 55px;
+	background-color: #332A95;
+}
+
+
+.jumbotron{
+	background-color: white;
+}
+
+.nav-link {
+	color: white;
+	transition: all .2s ease-in-out;
+}
+
+
+.nav-link:hover {
+	color: #A9A5CE;
+	transform: scale(1.1);
+}
+
+
+.carousel-inner img{
+	margin: auto;
+}
+
+#title_image{
+	height: 180px;
+	width: 800px;
+}
+
+#app_title{
+	margin-top: 50px;
+}
+
+.page_image{
+	width:700px;
+	height:400px;
+}
+
+.nav-item{
+	font-size: 25px;
+	
+}
+
+#aggies_logo{
+	height:300px;
+	width: 300px;
+}
+
+#app_description{
+	font-size: 20px;
+}
+
+.image_above_button{
+	position: relative;
+}
+
+.login_button{
+	
+	position: absolute;
+	margin-top:500px;
+	transition: all .2s ease-in-out;
+
+}
+
+
+
+.nav-item{
+	width: 200px;
+	margin-left: 400px;
+	
+}
+
+.btn{
+	width: 250px;
+	height:50px;
+}
+
+.btn-primary{
+	transition: all .2s ease-in-out;
+
+}
+
+.btn-primary:hover{
+	cursor: pointer;
+	transform: scale(1.1);
+
+}
+.btn-primary:active{
+	box-shadow: 0 10px #666;
+	transform: translateY(4px);
+
+}
+
+
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
+
+#tutoree{
+	margin-top:50px;
+
+}
+
+
+
+
+
