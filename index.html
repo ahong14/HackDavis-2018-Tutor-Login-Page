@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<!-- css files -->
+<link type = "text/css" rel = "stylesheet" href = "bootstrap.min.css" />
+<link type = "text/css" rel = "stylesheet" href = "tutor.css" />
+
+<!-- script files -->
+<script type = "text/javascript" src = "jquery-3.2.1.min.js"> </script>
+<script type = "text/javascript" src = "tutor_script.js"> </script>
+<script type = "text/javascript" src = "bootstrap.js"> </script>
+<script type = "text/javascript" src = "bootstrap.min.js"> </script>
+
+
+
+
+<title>
+Tutoring
+</title>
+
+</head>
+
+<body>
+	<div class = "container-fluid big_container">
+		<!-- navbar with home and login-->
+		<nav class = "navbar navbar-toggleable-md navbar bg-md fixed-top">
+			<div class = "navbar-header">
+
+			</div>
+			<ul class="navbar-nav">
+				<!-- clicking home nav link brings user back to top of page -->
+	    		<li class= "nav-item"> 
+	    			<a  class = "nav-link home_button" href="#home" > <strong> Home </strong> </a> 
+ 
+	    		</li>
+	    		<!-- login brings user to login part of page -->
+	    		<li class= "nav-item "> 
+	    			<a class = "nav-link tutoree_nav" href="#tutoree"> <strong> Login </strong> </a>
+	    		</li>
+
+			</ul>
+			
+		</nav> <!-- end of navbar -->
+
+		<br>
+
+		<!-- rest of page -->
+
+
+		<!-- page title -->
+		<div class = "jumbotron" id = "home" >
+			<div class = "container-fluid">
+				<div class = "text-center">
+					<img id = "title_image" src = "https://d28htnjz2elwuj.cloudfront.net/wp-content/uploads/2013/11/University_of_California_Davis_logo.png" />
+				</div>
+				
+				<h1 class ="display-3 text-center" id = "app_title"> Tutoring Scheduler </h1>
+
+				
+				<!-- carousel for images, slideshow -->
+				<div class = "text-center">
+				<!--carousel, slide show of images within jumbotron -->
+					<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval = "2500">
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+							<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+							<li data-target="#myCarousel" data-slide-to="1"></li>
+							<li data-target="#myCarousel" data-slide-to="2"></li>
+							<li data-target="#myCarousel" data-slide-to="3"></li>
+						</ol>
+
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img class= "page_image" class = "img-responsive" src="https://difex3ziji83k.cloudfront.net/sites/main/files/imagecache/lightbox/main-images/bike-circle-davis.jpg" alt="first image">
+							</div>
+
+							<div class="carousel-item">
+								<img class= "page_image" class = "img-responsive" src="https://www.ucdavis.edu/sites/default/files/styles/ucdedu_slideshow/public/image_gallery/20120928_tercero_120.jpg?itok=MDpr27Qm" alt="second image">
+							</div>
+
+							<div class="carousel-item">
+								<img class = "page_image" class = "img-responsive" src="https://education.ucdavis.edu/sites/main/files/imagecache/lightbox/main-images/ok_arneson_1.jpg" alt="third image">
+							</div>
+
+							<div class="carousel-item">
+								<img class = "page_image" class = "img-responsive" src="http://grfx.cstv.com/schools/ucda/graphics/facilities/Stadium.jpg" alt="fourth image">
+							</div>
+						</div> <!-- end of wrapper for slides -->
+					
+					</div> <!-- end of carousel -->
+				</div> 
+				
+			</div>
+			
+		</div>
+
+		<!-- end of intro -->
+
+
+
+		<!-- login -->
+		<div class = "jumbrotron" class = "tutoree_div" id = "tutoree">
+			<div class = "container-fluid">
+				<h1 class = "display-2 text-center"> Login </h1>
+
+					<div class = "text-center" class = "image_above_button">
+
+						<img class="page_image" src = "http://thejakartatutors.com/wp-content/uploads/2016/08/tutor1.jpg" />
+
+					</div>
+
+					<br>
+
+					<div class = "text-center" class = "button_below_image">
+
+						<a href="#/login"> <button type = "button" class = "btn btn-primary" id="#login"> LOGIN </button> </a>
+
+					</div>
+			</div>
+
+		</div>
+
+		<div class = "jumbotron">
+
+		</div>
+
+		<!-- end of tutoree login -->
+
+		</div> <!-- end of div -->
+
+
+</body>
+
+
+
+</html>
+
