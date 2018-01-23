@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	
-	//home button
+	//home button animates back to top of page
 	$('.home_button').click(function()
 	{
 		$('html,body').animate(
@@ -10,6 +10,7 @@ $(document).ready(function(){
 			
 	});
 
+	//clicking login animates to login part of page 
 	$('.tutoree_nav').click(function()
 	{
 		$('html,body').animate(
@@ -18,19 +19,6 @@ $(document).ready(function(){
 		},500);
 			
 	});
-
-	$('.tutor_nav').click(function()
-	{
-		$('html,body').animate(
-		{
-			scrollTop: $('#tutor').position().top
-		},500);
-			
-	});
-
-
-	
-
 });
 
 	
